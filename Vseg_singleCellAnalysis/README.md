@@ -29,3 +29,22 @@ it is a transcript reads list, each row represent one transcript, it includes tr
 Rscript Distance_generation.R
 ```
 it takes about 3 minitues, and distance file OB36_nnAll.txt will be generated.
+
+### Generate edge weight file
+```
+perl edgeWeight.pl -d distance_file -c coord_file -f final_file -o output_file
+```
+for example:
+```
+perl edgeWeight.pl -d OB36_nnAll.txt -c OB36suniq.coord -f OB36_sub.final -o edgeWeight.txt
+```
+
+### Run segmentation
+```
+perl shapeImageSegVnet2.pl -e weight_file -r region -a algorithm_name -f final_file -c cutoff
+```
+for example:
+```
+perl shapeImageSegVnet2.pl -e test_edgeWeight.txt -r 28000,32000,6000,10000 -a fastGreedy -f OB36_sub.final -c 25
+```
+
