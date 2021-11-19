@@ -22,3 +22,10 @@ it is a transcript reads list, each row represent one transcript, it includes tr
 |014|004|29515.71|6708|ACATTGCGG|GTTACTGCATAAATTTGTGTCTGC|16|9|109078311|115M3576N35M|1|ENSMUSG00000091537|Tma7|protein_coding|1.00|
 |013|004|29624.67|6888.33|TTGATGC|ATGAATTGCTTTGTTACGTAAAGT|16|12|111961438|101M894N24M773N25M|1|ENSMUSG00000021290|Atp5mpl|protein_coding|0.00|
   
+## Run Vsg
+
+### Generate distance file
+```
+Rscript Distance_generation.R
+```
+it takes about 3 minitues, and distance file OB36_nnAll.txt will be generated.
