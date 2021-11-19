@@ -6,7 +6,7 @@ Test data could be downloaded at https://drive.google.com/drive/folders/1Ecn0xos
 ### OB36suniq.coord
 it is a barcode list file, each row represents one barcode, coordinates, UMI counts, mitochondria counts and intro counts:
 
-|   | CoordX  | CoordY  | UMIcounts  | mtCounts  |  intronCounts  |
+| index | CoordX  | CoordY  | UMIcounts  | mtCounts  |  intronCounts  |
 |---|---|---|---|---|
 | 873491 | 24000.0115 | 6118.725 | 4 | 0 | 1 |
 | 873492 | 24000.028 | 4329.86 | 1 | 1 | 0 |
