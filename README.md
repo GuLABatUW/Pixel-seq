@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://github.com/GuLABatUW/Pixel-seq/blob/main/pixel.png", width=300>
 </p>
 <!-- badges: start -->
