@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/GuLABatUW/Pixel-seq/blob/main/pixel.png">
+  <img src="https://github.com/GuLABatUW/Pixel-seq/blob/main/pixel.png", width=50>
 </p>
 <!-- badges: start -->
 
