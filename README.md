@@ -1,5 +1,5 @@
 # Pixel-seq
-<img src="https://github.com/GuLABatUW/Pixel-seq/pixel.png" width="400" alt="Pixel-seq">
+<img src="https://github.com/GuLABatUW/Pixel-seq/pixel.png">
 
 <!-- badges: start -->
 
