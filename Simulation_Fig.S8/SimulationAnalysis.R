@@ -1,6 +1,6 @@
 #SPT analysis of RNAseqfish+
 #seqFish+ source data downloaded from:
-#https://github.com/CaiGroup/seqFISH-PLUS
+#https://github.com/CaiGroup/seqFISH-PLUS 
 
 RNAlocus = t(read.csv('~/Downloads/sourcedata/RNA_locations_cell_cortex/RNA_locations_cell_1.csv',header=F))
 allRNAlocus = cbind(rep(1,nrow(RNAlocus)),RNAlocus)
