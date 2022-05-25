@@ -1,4 +1,4 @@
-Copyright (c) 2021, Xiaonan Fu, Biochemistry department,
+Copyright (c) 2021, Xiaonan Fu, Biochemistry department, 
 University of Washington, Seattle WA98103, USA
 	
 Dlight User Guide
