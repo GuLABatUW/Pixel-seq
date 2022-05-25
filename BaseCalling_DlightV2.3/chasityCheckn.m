@@ -2,7 +2,7 @@ function [alltempSpot] = chasityCheckn(definedspots,checkImgSC3,checkImgSC5,chec
 
 
 %considering the raw spots are not quality-reliable, color crosstalk
-%correction will be performed by default matrix
+%correction will be performed by default matrix 
 
 %crosstalkM = [1 1.8479 0.5415 0.4633;0.1695 1 0.1098 0.1590;0.0295 0.0739 1 0.5711;0.0301 0.1416 0.3666 1];
 templateIntensity = zeros(size(definedspots,1),size(selectedCycles,2)*4+3);
