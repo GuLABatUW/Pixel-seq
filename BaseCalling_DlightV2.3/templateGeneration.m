@@ -1,5 +1,5 @@
             
-
+%for sequencing template generation
 
 function [tempImage] = templateGeneration(SC3,SC5,SNI,STX,template,imageSize,Cover)
 
