@@ -1,5 +1,5 @@
 
-%method the find the maximum true spots
+%method the find the maximum true spots 
 
 function [spots] = spot_finding(image,cycle,chanel,algorithm)
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
