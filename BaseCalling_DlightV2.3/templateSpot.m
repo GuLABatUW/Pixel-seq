@@ -1,6 +1,6 @@
 
 
-%calculate all the spots with defined algorithm
+%calculate all the spots with defined algorithm 
 function [filterspot] = templateSpot(templateCycles,SC3,SC5,SNI,STX,imageSize,spotAlgorithm)
 spotAll = zeros(size(templateCycles,2)*1000000,5);
 totSpots = 0;
