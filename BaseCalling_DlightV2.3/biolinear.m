@@ -3,7 +3,7 @@
 
 %variable [image]: the input image intensity matrix
 %variable [surround_pix]; the radius of surrounding pixels used to estimate
-%the background
+%the background, size varied
 %variable [x,y]: the coordinates of the centroid
 
 
