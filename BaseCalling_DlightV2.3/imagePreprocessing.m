@@ -1,7 +1,7 @@
 
 
 
-%image pre-processing to pre-sharp all the images
+%image pre-processing to pre-sharp all the images 
 
 function [images] = imagePreprocessing(inputDir,Fov, totalCyc,size,channel,filter)
     images = zeros(totalCyc,size,size);
