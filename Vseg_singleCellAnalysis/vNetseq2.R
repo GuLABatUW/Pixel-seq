@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+#density and similarity based
 args = commandArgs(trailingOnly=TRUE)
 
 keyset = args[1]
