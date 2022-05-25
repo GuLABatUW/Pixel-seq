@@ -3,7 +3,7 @@ delete(gcp('nocreate'));
 warning off;
 %###############################################################################
 % Updated based on the DlightP2_1, Speed optimlization,
-% Change in the template image generation
+% Change in the template image generation, for base calling 
 %###############################################################################
 %parameter the sequencing and the folder store all the images for one FOV
 totalCycle = 24;
