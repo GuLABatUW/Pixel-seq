@@ -1,4 +1,4 @@
-
+#whole image analysis
 probeCon = im2double(imread('./beforeCleavage.tif'));
 
 probeTaqI =  im2double(imread('./afterCleavage.tif'));
