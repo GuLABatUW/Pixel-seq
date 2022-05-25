@@ -1,5 +1,5 @@
 
-
+ 
 
 
 function [topCof] = weightedHist(pairedColorLeft,pairedColorRight,breaks,minPP)
