@@ -1,3 +1,4 @@
+#this code is used to convert the intensity file into bit file for base calling
 import sys
 import numpy as np
 
