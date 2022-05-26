@@ -47,7 +47,7 @@ mycol = c("#A6D854", # cluster 0, light green for Fkbp3
           "#33A02C", # cluster 14, green for Calca, Nts
           "#66C2A5", # cluster 15, deep cyan for Bbip1
           "#1F78B4", # cluster 16, brown for Calca, Sncg
-          "#6A0DAD" # cluster 17, deep purple Vps8, Tmsb10
+          "#6A0DAD" # cluster 17, deep purple Tmsb10
 )
 
 
@@ -116,7 +116,7 @@ mycol_all = c("#66C2A5", # cluster 0, deep cyan for Granule
               "#8DD3C7", # cluster 17, light light cyan for Ependymal
               "#01665E", # cluster 18, deep green for Astro3
               "#B15928", # cluster 19, brown for Astro4
-              "#6A3D9A", # cluster 20, light light cyan for Glia
+              "#6A3D9A", # cluster 20, light light cyan for unknown
               "#FFFFB3" # cluster 21, light light yellow for Neuron9
 )
 
