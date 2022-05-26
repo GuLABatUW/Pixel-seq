@@ -68,8 +68,6 @@ dev.off()
 only_neuron_4_df <- data.frame(only_neuron_4$integrated_snn_res.0.3)
 write.csv(only_neuron_4_df, "/media/gulab/GUDR2/PB10_new/neuron_4_cluster.csv")
 
-# saveRDS(only_neuron_4, "/media/gulab/GUDR2/PB10_new/PB_neuron4Sample.rds")
-
 FeaturePlot(only_neuron_4, features = c("Calca", "Sncg"))
 DimPlot(only_neuron_4[,only_neuron_4$orig.ident=='30d1'], reduction = "umap", label = FALSE, pt.size = .6, cols = mycol)
 DimPlot(only_neuron_4[,only_neuron_4$orig.ident=='30d2'], reduction = "umap", label = FALSE, pt.size = .6, cols = mycol)
