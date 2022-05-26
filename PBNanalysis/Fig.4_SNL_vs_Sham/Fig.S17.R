@@ -1,4 +1,4 @@
-## for sup Figure16
+## for sup Figure17
 
 ## pos_30d1.csv from Xiaonan
 ## pos_CN1.csv from Xiaonan
