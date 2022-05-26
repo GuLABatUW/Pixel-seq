@@ -36,28 +36,28 @@ write.csv(PBN_4_df, "/media/gulab/GUDR2/PB10_new/PBN_4_cluster.csv")
 
 table(PBN_4[, PBN_4$orig.ident == '30d1']$seurat_clusters)
 ## set color for UMAP
-mycol = c("#66C2A5", # cluster 0, deep cyan for Granule
-          "#FC8D62", # cluster 1, orange for Neuron1
-          "#8DA0CB", # cluster 2, deep blue for Oligo1
-          "#E78AC3", # cluster 3, pink for Oligo2
-          "#FDBF6F", # cluster 4, light orange for Astro
-          "#FFD92F", # cluster 5, yellow for Neuron2
-          "#E5C494", # cluster 6, light brown for RBCs
-          "#E31A1C", # cluster 7, red for Neuron3
-          "#A6CEE3", # cluster 8, light blue for Neuron4
-          "#B3B3B3", # cluster 9, grey for VLMCs
-          "#B2DF8A", # cluster 10, light light green for Neuron5
-          "#33A02C", # cluster 11, green for Microglia
-          "#FB9A99", # cluster 12, rose for EC
-          "#1F78B4", # cluster 13, blue for Astro2
-          "#A6D854", # cluster 14, light green for Neuron6
-          "#FF7F00", # cluster 15, pure orange for Neuron7(CGRP)
-          "#CAB2D6", # cluster 16, light purple for Neuron8
-          "#8DD3C7", # cluster 17, light light cyan for Ependymal
-          "#01665E", # cluster 18, deep green for Astro3
-          "#B15928", # cluster 19, brown for Astro4
-          "#6A3D9A", # cluster 20, light light cyan for Glia
-          "#FFFFB3" # cluster 21, light light yellow for Neuron9
+mycol = c("#66C2A5", 
+          "#FC8D62", 
+          "#8DA0CB", 
+          "#E78AC3", 
+          "#FDBF6F", 
+          "#FFD92F", 
+          "#E5C494", 
+          "#E31A1C", 
+          "#A6CEE3", 
+          "#B3B3B3", 
+          "#B2DF8A", 
+          "#33A02C", 
+          "#FB9A99", 
+          "#1F78B4", 
+          "#A6D854", 
+          "#FF7F00", 
+          "#CAB2D6", 
+          "#8DD3C7", 
+          "#01665E", 
+          "#B15928", 
+          "#6A3D9A", 
+          "#FFFFB3" 
           )
 
 ## generate UMAP plot
