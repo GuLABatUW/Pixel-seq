@@ -5,4 +5,6 @@
 
 <!-- badges: end -->
 
-
+<p align="center">
+Polony gels enable amplifiable DNA stamping and spatial transcriptomics of chronic pain
+</p>
